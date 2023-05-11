@@ -16,7 +16,7 @@ ytd-two-column-browse-results-renderer.grid-6-columns::before {
 	display: block;
 	opacity: 1;
 	height: 30px;
-	content: "focus";
+	content: "%focus%";
 	color: gray;
 	position: absolute;
 	z-index: 10;
