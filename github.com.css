@@ -1,0 +1,12 @@
+main feed-container {
+	display: none !important;
+}
+.dashboard-changelog,
+nav#global-nav a[href="/explore"],
+div[aria-label="Explore repositories"] {
+	display: none;
+}
+div[style*="min-height: 100vh;"] {
+	max-height: 100vh !important;
+	min-height: 94vh !important;
+}

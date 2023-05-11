@@ -1,0 +1,9 @@
+section[aria-labelledby="accessible-list"],
+section[role="region"] {
+	visibility: hidden;
+	pointer-events: none !important;
+}
+
+body {
+	overflow-y: hidden;
+}

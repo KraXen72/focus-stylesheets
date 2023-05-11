@@ -1,0 +1,27 @@
+ytd-app ytd-browse #primary ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer,
+ytd-app ytd-browse #primary ytd-feed-filter-chip-bar-renderer,
+ytd-comments,
+#odeliscoEmbed,
+#items ytd-guide-entry-renderer a[title="Shorts"],
+ytd-two-column-browse-results-renderer.grid-6-columns #primary {
+	display: none !important;
+}
+#secondary {
+visibility: hidden !important;
+}
+
+ytd-app ytd-browse #primary::before,
+ytd-two-column-browse-results-renderer.grid-6-columns::before {
+	font-family: "Consolas", monospace;
+	display: block;
+	opacity: 1;
+	height: 30px;
+	content: "focus";
+	color: gray;
+	position: absolute;
+	z-index: 10;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+}
