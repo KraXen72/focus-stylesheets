@@ -6,7 +6,7 @@ ytd-comments,
 ytd-two-column-browse-results-renderer.grid-6-columns #primary {
 	display: none !important;
 }
-#secondary {
+#related > ytd-watch-next-secondary-results-renderer {
 visibility: hidden !important;
 }
 
